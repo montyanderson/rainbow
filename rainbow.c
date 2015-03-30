@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "colors.h"
  
-int main(void) {
- 
+int main(int argc, char *argv[]) {
+
 	int counter = 0;
 
 	while(1 > 0) {
@@ -44,9 +44,7 @@ int main(void) {
 		}
  
 		printf("%d", rand() % 10);
-	}
+		printf(KWHT);
+	} 
  
- 
- 
-    return 0;
 }

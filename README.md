@@ -5,5 +5,5 @@ Compile/Install
 ---------------
     git clone https://github.com/montyanderson/rainbow.git
     cd rainbow
-    ./compile.sh
+    gcc rainbow.c -o rainbow
     ./rainbow
